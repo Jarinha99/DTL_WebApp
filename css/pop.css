@@ -1,0 +1,73 @@
+body{
+    height: 98%;
+    background-image: url("../Images/fundo.png");
+    background-repeat: no-repeat;
+    background-size:100%;
+    bottom: 0;
+    color: black;
+    left: 0;
+    overflow: auto;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    top: 0;
+    margin: 0px;
+}
+@font-face { font-family: aliensandcows_trial; src: url('../Fonts/aliensandcows_trial.ttf'); }
+
+#top{
+    border-bottom: 0.5vw solid;
+    border-color: rgba(237, 17, 101);
+    position: absolute;
+    height: 37%;
+    width: 100%;
+}
+h1{
+    color: rgba(237, 17, 101);
+    position: absolute;
+    right: 71vw;
+    top: 70%;
+    font-size: 3vw;
+    /*font-family: aliensandcows_trial; */
+}
+#ImgVoltar{
+    height  : 40%;
+    width   : 15%;
+    position: absolute;
+    left    : 0%;
+    top     : 3%;
+}
+
+#ImgLogo{
+    width   : 28%;
+    height  : 83%;
+    position: absolute;
+    top     : 9%;
+    left    : 36%;
+}
+
+#ImgMusic{
+    width : 8%;
+    height: 32%;
+    position: absolute;
+    right: 86%;
+    top: 74%;  
+}
+#mid{
+    position: absolute;
+    left: 2vw;
+    top: 55%;
+    width: 96vw;
+}
+#mid img{
+    width: 65%;
+    height: 60%;
+}
+p{
+    color:white;
+    font-weight: bold;
+    font-size:1.2em;
+    margin: 0 auto;
+    margin-right:32%;
+    /*font-family: aliensandcows_trial;*/
+}

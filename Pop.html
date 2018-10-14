@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <title>DTL</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/pop.css">
+    <script type="text/javascript" src="Js/Game.js"></script>
+    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+  </head>
+  <body>
+    <div id= "top">
+      <a href="escolhaGenero.html"><img src="Images/botao-voltar-pagina.png" id="ImgVoltar"></a>
+      <img src="Images/logo.png" id="ImgLogo">
+      <img src="Images/botao-estilos-musicais-v2.png" id="ImgMusic">
+      <h1>MÚSICAS</h1>
+    </div>
+    <div id="mid">
+      <div class="your-class">
+        <div><a href="Cronometro.html"><img onclick="MusicNotSorry();"src="Images/Capas/Pop/Capa_de_Sorry_Not_Sorry.jpeg"></a><p>Demi Lovato - Sorry not Sorry</p></div>
+        <div><a href="Cronometro.html"><img onclick="MusicSugar();" src="Images/Capas/Pop/Capa_de_Sugar_(Maroon_5).png"></a><p>Maroon 5 - Sugar</p></div>
+        <div><a href="Cronometro.html"><img onclick="MusicJustin();" src="Images/Capas/Pop/Capa_Sorry_Justin.jpg"></a><p>Justin Bieber - Sorry</p></div>
+        <div><a href="Cronometro.html"><img onclick="MusicNewRules();"src="Images/Capas/Pop/Capa_New_Rules.jpg"></a><p>Duva Lipa - New Rules</p></div>
+      </div>
+    </div>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="slick/slick.min.js"></script>    
+    <script>
+      $(document).ready(function(){
+        $('.variable-width').slick({
+  dots: true,
+  infinite: true,
+  speed: 300,
+  slidesToShow: 1,
+  centerMode: true,
+  variableWidth: true
+});
+            $('.your-class').slick({
+                dots: false,
+                arrows: false,
+                centerMode: true,
+                centerPadding: '60px',
+                slidesToShow: 3,
+                responsive: [
+                  {
+                    breakpoint: 768,
+                    settings: {
+                      arrows: false,
+                      centerMode: true,
+                      centerPadding: '40px',
+                      slidesToShow: 3
+                    }
+                  },
+                  {
+                    breakpoint: 480,
+                    settings: {
+                      arrows: false,
+                      centerMode: true,
+                      centerPadding: '40px',
+                      slidesToShow: 1
+                    }
+                  }
+                ]
+              });  
+        });
+    </script>
+  </body>
+</html>

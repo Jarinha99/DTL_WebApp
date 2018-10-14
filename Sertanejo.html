@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <title>DTL</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/pop.css">
+    <script type="text/javascript" src="Js/Game.js"></script>
+    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+  </head>
+  <body>
+    <div id= "top">
+      <a href="escolhaGenero.html"><img src="Images/botao-voltar-pagina.png" id="ImgVoltar"></a>
+      <img src="Images/logo.png" id="ImgLogo">
+      <img src="Images/botao-estilos-musicais-v2.png" id="ImgMusic">
+      <h1>MÚSICAS</h1>
+    </div>
+    <div id="mid">
+      <div class="your-class">
+        <div><a href="Cronometro.html"><img onclick="MusicArCondicionado();"src="Images/Capas/Sertanejo/Ar_Condicionado.jpg"></a><p>Wesley Safadao - Ar Condicionado no 15</p></div>
+        <div><a href="Cronometro.html"><img onclick="MusicDonaMaria();" src="Images/Capas/Sertanejo/DonaMaria.jpg"></a><p>Thiago Brava - Dona Maria</p></div>
+        <div><a href="Cronometro.html"><img onclick="MusicRomance();" src="Images/Capas/Sertanejo/RomanceComSafadeza.jpg"></a><p>Wesley Safadao - Romance com Safadeza</p></div>
+        <div><a href="Cronometro.html"><img onclick="MusicTaTumTum();"src="Images/Capas/Sertanejo/Ta-Tum-Tum.jpg"></a><p>Simone e Simaria - Ta Tum Tum</p></div>
+      </div>
+    </div>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="slick/slick.min.js"></script>    
+    <script>
+      $(document).ready(function(){
+        $('.variable-width').slick({
+  dots: true,
+  infinite: true,
+  speed: 300,
+  slidesToShow: 1,
+  centerMode: true,
+  variableWidth: true
+});
+            $('.your-class').slick({
+                dots: false,
+                arrows: false,
+                centerMode: true,
+                centerPadding: '60px',
+                slidesToShow: 3,
+                responsive: [
+                  {
+                    breakpoint: 768,
+                    settings: {
+                      arrows: false,
+                      centerMode: true,
+                      centerPadding: '40px',
+                      slidesToShow: 3
+                    }
+                  },
+                  {
+                    breakpoint: 480,
+                    settings: {
+                      arrows: false,
+                      centerMode: true,
+                      centerPadding: '40px',
+                      slidesToShow: 1
+                    }
+                  }
+                ]
+              });  
+        });
+    </script>
+  </body>
+</html>

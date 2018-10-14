@@ -1,0 +1,51 @@
+body{
+    height: 95%;
+    background-image: url("../Images/fundo.png");
+    background-repeat: no-repeat;
+    background-size:100%;
+    bottom: 0;
+    color: black;
+    left: 0;
+    overflow: auto;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    top: 0;
+    margin: 0px;
+}
+@font-face { font-family: aliensandcows_trial; src: url('../Fonts/aliensandcows_trial.ttf'); }
+
+#logo{
+    border-bottom: 0.5vw solid;
+    border-top: 0.5vw solid;
+    border-color: rgba(237, 17, 101);
+    bottom:80px;
+    color: white;
+    left:80px;
+    overflow: auto;
+    position: absolute;
+    right:80px;
+    text-align: center;
+    top: 90px;
+}
+#barraInferior{
+    bottom: -5%;
+    color: white;
+    left:246px;
+    overflow: auto;
+    position: absolute;
+    right:280px;
+    text-align: center;
+    top: 89%;
+}
+#img-logo{
+    height: 95%;
+    width: 62%;
+    position: absolute;
+    top: 3%;
+    right: 23%;
+}/*
+h1{
+    font-family: aliensandcows_trial;
+}*/
+

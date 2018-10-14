@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <Title> Dance ! </Title>
+        <script src="js/jquery-3.3.1.min.js"></script>
+        <script type="text/javascript" src="Js/Game.js"></script>
+        <script type="text/javascript" src="Js/Controle.js"></script>
+        <link rel="stylesheet" type="text/css" href="css/GameStyle.css">
+    </head>
+    <body onload="start();">
+        <div id="DivLogo">
+            <img src="Images/logo.png" id="ImgLogo">
+        </div>
+        <div id="CapaMusica">
+            <img src ="Images/teste.png">
+            <h1>Sugar - Maroon 5</h1>
+        </div>
+        <div class="Progress">
+            <div id="progresso"class="progress-bar"></div>
+        </div>
+        <div id="TempoInicio">
+            <p>00:00</p>
+        </div>
+        <div id="TempoFim">
+            <p>00:48</p>
+        </div>
+        <audio autoplay id="playAudio">
+            <source src="Musics/POP/Maroon5-Sugar.mp3">
+        </audio>
+    </body>
+</html>
