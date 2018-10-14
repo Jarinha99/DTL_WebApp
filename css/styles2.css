@@ -14,6 +14,8 @@ body{
     margin: 0px;
 }
 
+@font-face { font-family: aliensandcows_trial; src: url('../Fonts/aliensandcows_trial.ttf'); }
+
 #top{
     border-bottom: 0.5vw solid;
     border-color: rgba(237, 17, 101);
@@ -22,11 +24,12 @@ body{
     width: 100%;
 }
 h1{
+    font-family: aliensandcows_trial;
     color: rgba(237, 17, 101);
     position: absolute;
     right: 71vw;
-    top: 70%;
-    font-size: 3vw; 
+    top: 55%;
+    font-size: 5vw; 
 }
 #ImgVoltar{
     height  : 40%;

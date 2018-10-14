@@ -14,6 +14,13 @@ body{
     margin           : 0px;
     padding          : 0px;
 }
+#ImgVoltar{
+    height  : 15%;
+    width   : 15%;
+    position: absolute;
+    right    : 86%;
+    top     : 1%;
+}
 #ImgLogo{
     width   : 20%;
     height  : 20%;

@@ -78,6 +78,7 @@ function Contagem() {
 }
 
 /*Funções de Música*/
+
 /* POP */
 function MusicSugar() {
     localStorage.setItem("caminhoMusica", "Musics/Pop/Maroon5-Sugar.mp3");
@@ -107,6 +108,87 @@ function MusicNotSorry() {
     localStorage.setItem("total", 39);
     localStorage.setItem("estilo", "POP");
 }
+
+function MusicSingle() {
+    localStorage.setItem("caminhoMusica", "Musics/Pop/Beyonce - Single ladies.mp3");
+    localStorage.setItem("caminhoCapa", "Images/Capas/Pop/Capa_Single_Ladies.jpg");
+    localStorage.setItem("titulo", "Beyonce - Single ladies");
+    localStorage.setItem("total", 30);
+    localStorage.setItem("estilo", "POP");
+}
+
+function MusicBrunoMars() {
+    localStorage.setItem("caminhoMusica", "Musics/Pop/Bruno Mars - Thats What I Like.mp3");
+    localStorage.setItem("caminhoCapa", "Images/Capas/Pop/BrunoMars_MarryYou.jpeg");
+    localStorage.setItem("titulo", "Bruno Mars - Thats What I Like");
+    localStorage.setItem("total", 30);
+    localStorage.setItem("estilo", "POP");
+}
+
+function MusicShape() {
+    localStorage.setItem("caminhoMusica", "Musics/Pop/Ed Sheeran - Shape of You.mp3");
+    localStorage.setItem("caminhoCapa", "Images/Capas/Pop/ed-sheeran-divide-capa.jpg");
+    localStorage.setItem("titulo", "Ed Sheeran - Shape of You");
+    localStorage.setItem("total", 30);
+    localStorage.setItem("estilo", "POP");
+}
+
+function MusicTimberlake() {
+    localStorage.setItem("caminhoMusica", "Musics/Pop/Justin Timberlake - Can't Stop The Feeling.mp3");
+    localStorage.setItem("caminhoCapa", "Images/Capas/Pop/Timberlake.jfif");
+    localStorage.setItem("titulo", "Justin Timberlake - Can't Stop The Feeling");
+    localStorage.setItem("total", 35);
+    localStorage.setItem("estilo", "POP");
+}
+
+function MusicUpTown() {
+    localStorage.setItem("caminhoMusica", "Musics/Pop/Mark Ronson ft. Bruno Mars - Uptown Funk.mp3");
+    localStorage.setItem("caminhoCapa", "Images/Capas/Pop/Mark Ronson ft. Bruno Mars - Uptown Funk.jpg");
+    localStorage.setItem("titulo", "Mark Ronson - Uptown Funk");
+    localStorage.setItem("total", 33);
+    localStorage.setItem("estilo", "POP");
+}
+
+function MusicThriller() {
+    localStorage.setItem("caminhoMusica", "Musics/Pop/Michael Jackson - Thriller.mp3");
+    localStorage.setItem("caminhoCapa", "Images/Capas/Pop/Michael Jackson - Thriller.jpg");
+    localStorage.setItem("titulo", "Michael Jackson - Thriller");
+    localStorage.setItem("total", 34);
+    localStorage.setItem("estilo", "POP");
+}
+
+function MusicBestSong() {
+    localStorage.setItem("caminhoMusica", "Musics/Pop/One Direction - Best Song Ever.mp3");
+    localStorage.setItem("caminhoCapa", "Images/Capas/Pop/One Direction - Best Song Ever.png");
+    localStorage.setItem("titulo", "One Direction - Best Song Ever");
+    localStorage.setItem("total", 30);
+    localStorage.setItem("estilo", "POP");
+}
+
+function MusicHappy() {
+    localStorage.setItem("caminhoMusica", "Musics/Pop/Pharrell Williams - Happy.mp3");
+    localStorage.setItem("caminhoCapa", "Images/Capas/Pop/Pharrell Williams - Happy.jpg");
+    localStorage.setItem("titulo", "Pharrell Williams - Happy");
+    localStorage.setItem("total", 31);
+    localStorage.setItem("estilo", "POP");
+}
+
+function MusicSpice() {
+    localStorage.setItem("caminhoMusica", "Musics/Pop/Spice Girls - Wannabe.mp3");
+    localStorage.setItem("caminhoCapa", "Images/Capas/Pop/Wannabe.png");
+    localStorage.setItem("titulo", "Spice Girls - Wannabe");
+    localStorage.setItem("total", 27);
+    localStorage.setItem("estilo", "POP");
+}
+
+function MusicShekItOff() {
+    localStorage.setItem("caminhoMusica", "Musics/Pop/Taylor Swift - Shake It Off.mp3");
+    localStorage.setItem("caminhoCapa", "Images/Capas/Pop/Taylor Swift - Shake It Off.jpg");
+    localStorage.setItem("titulo", "Taylor Swift - Shake It Off");
+    localStorage.setItem("total", 29);
+    localStorage.setItem("estilo", "POP");
+}
+
 /* Hip Hop */
 
 function MusicGodsPlan() {
@@ -316,34 +398,34 @@ function MusicMario() {
 /* Funk */
 
 function MusicExplosao() {
-    localStorage.setItem("caminhoMusica", "Musics/Funk/MC Kevinho - Olha a Explosão (KondZilla).mp3");
+    localStorage.setItem("caminhoMusica", "Musics/Funk/MC Kevinho - Olha a Explosão.mp3");
     localStorage.setItem("caminhoCapa", "Images/Capas/Funk/Explosao.jpg");
     localStorage.setItem("titulo", "MC Kevinho - Olha a Explosão");
-    localStorage.setItem("total", 49);
+    localStorage.setItem("total", 31);
     localStorage.setItem("estilo", "Funk");
 }
 
 function MusicFuleragem() {
-    localStorage.setItem("caminhoMusica", "Musics/Funk/MC WM - Fuleragem (KondZilla).mp3");
+    localStorage.setItem("caminhoMusica", "Musics/Funk/MC WM - Fuleragem.mp3");
     localStorage.setItem("caminhoCapa", "Images/Capas/Funk/Fuleragem.jpg");
     localStorage.setItem("titulo", "MC WM - Fuleragem");
-    localStorage.setItem("total", 56);
+    localStorage.setItem("total", 30);
     localStorage.setItem("estilo", "Funk");
 }
 
 function MusicVaiMalandra() {
-    localStorage.setItem("caminhoMusica", "Musics/Funk/Vai_Malandra.mp3");
+    localStorage.setItem("caminhoMusica", "Musics/Funk/Anitta, Mc Zaac, Maejor ft. Tropkillaz  DJ Yuri Martins - Vai Malandra.mp3");
     localStorage.setItem("caminhoCapa", "Images/Capas/Funk/VaiMalandra.jpg");
     localStorage.setItem("titulo", "Anitta - Vai Malandra");
-    localStorage.setItem("total", 29);
+    localStorage.setItem("total", 30);
     localStorage.setItem("estilo", "Funk");
 }
 
 function MusicSoQuerVrau() {
-    localStorage.setItem("caminhoMusica", "Musics/Funk/Vrau.mp3");
+    localStorage.setItem("caminhoMusica", "Musics/Funk/MC MM - Só Quer Vrau.mp3");
     localStorage.setItem("caminhoCapa", "Images/Capas/Funk/SoQuerVrau.jpg");
     localStorage.setItem("titulo", "MC MM - Só Quer Vrau");
-    localStorage.setItem("total", 28);
+    localStorage.setItem("total", 30);
     localStorage.setItem("estilo", "Funk");
 }
 
@@ -429,7 +511,7 @@ function MusicSorte() {
 }
 
 function MusicLargadinho() {
-    localStorage.setItem("caminhoMusica", "Musics/Axé/Largadinho - Claudia Leitte.mp3");
+    localStorage.setItem("caminhoMusica", "Musics/Axé/Claudia Leitte - Largadinho.mp3");
     localStorage.setItem("caminhoCapa", "Images/capas/axe/Claudia Leite - Largadinho.jpg");
     localStorage.setItem("titulo", "Claudia Leite - Largadinho");
     localStorage.setItem("total", 35);
@@ -452,40 +534,85 @@ function MusicOnda() {
     localStorage.setItem("estilo", "Axe");
 }
 
+function MusicBabado() {
+    localStorage.setItem("caminhoMusica", "Musics/Axé/Babado Novo - Bola De Sabão.mp3");
+    localStorage.setItem("caminhoCapa", "Images/capas/axe/Babado Novo - Bola De Sabão.jfif");
+    localStorage.setItem("titulo", "Babado Novo - Bola De Sabão");
+    localStorage.setItem("total", 31);
+    localStorage.setItem("estilo", "Axe");
+}
+
+function MusicBomba() {
+    localStorage.setItem("caminhoMusica", "Musics/Axé/BragaBoys - Bomba.mp3");
+    localStorage.setItem("caminhoCapa", "Images/capas/axe/BragaBoys - Bomba.jfif");
+    localStorage.setItem("titulo", "BragaBoys - Bomba");
+    localStorage.setItem("total", 31);
+    localStorage.setItem("estilo", "Axe");
+}
+
+function MusicLiga() {
+    localStorage.setItem("caminhoMusica", "Musics/Axé/LevaNóiz - Liga da Justiça.mp3");
+    localStorage.setItem("caminhoCapa", "Images/capas/axe/LevaNóiz - Liga da Justiça.jpg");
+    localStorage.setItem("titulo", "LevaNóiz - Liga da Justiça");
+    localStorage.setItem("total", 31);
+    localStorage.setItem("estilo", "Axe");
+}
 
 /* Eletrônica */
 
 function MusicLeanOn() {
     localStorage.setItem("caminhoMusica", "Musics/Eletrônica/Lean On - Major Lazer  DJ Snake - (feat. MØ).mp3");
-    localStorage.setItem("caminhoCapa", "Images/capas/eletronico/leanOn - major.jpg");
+    localStorage.setItem("caminhoCapa", "Images/capas/eletronico/Major Lazer ft. DJ Snake - Lean On.mp3");
     localStorage.setItem("titulo", "Major - Lean On");
-    localStorage.setItem("total", 41);
+    localStorage.setItem("total", 31);
     localStorage.setItem("estilo", "Eletronica");
 }
 
 function MusicSummer() {
-    localStorage.setItem("caminhoMusica", "Musics/Eletrônica/Summer - Calvin Harris.mp3");
+    localStorage.setItem("caminhoMusica", "Musics/Eletrônica/Calvin Harris - Summer");
     localStorage.setItem("caminhoCapa", "Images/capas/eletronico/Calvin Harris - Summer.jpg");
     localStorage.setItem("titulo", "Calvin Harris - Summer");
-    localStorage.setItem("total", 50);
+    localStorage.setItem("total", 30);
     localStorage.setItem("estilo", "Eletronica");
 }
 
 function MusicBoom() {
-    localStorage.setItem("caminhoMusica", "Musics/Eletrônica/Tiësto  Sevenn - BOOM.mp3");
+    localStorage.setItem("caminhoMusica", "Musics/Eletrônica/Tiësto, Sevenn - BOOM.mp3");
     localStorage.setItem("caminhoCapa", "Images/capas/eletronico/Tiesto Sevenn - Boom.jpg");
     localStorage.setItem("titulo", "Tiesto Sevenn - Boom");
-    localStorage.setItem("total", 50);
+    localStorage.setItem("total", 31);
     localStorage.setItem("estilo", "Eletronica");
 }
 
 function MusicWake() {
-    localStorage.setItem("caminhoMusica", "Musics/Eletrônica/Wake Me Up - Avicii.mp3");
+    localStorage.setItem("caminhoMusica", "Musics/Eletrônica/Avicii - Wake Me Up.mp3");
     localStorage.setItem("caminhoCapa", "Images/capas/eletronico/wake me up - avicii.jpg");
     localStorage.setItem("titulo", "Avicci - Wake me up");
-    localStorage.setItem("total", 63);
+    localStorage.setItem("total", 31);
     localStorage.setItem("estilo", "Eletronica");
 }
 
+function MusicJustDance() {
+    localStorage.setItem("caminhoMusica", "Musics/Eletrônica/Lady Gaga - Just Dance.mp3");
+    localStorage.setItem("caminhoCapa", "Images/capas/eletronico/Lady Gaga - Just Dance.jfif");
+    localStorage.setItem("titulo", "Lady Gaga - Just Dance");
+    localStorage.setItem("total", 21);
+    localStorage.setItem("estilo", "Eletronica");
+}
 
+function MusicGangam() {
+    localStorage.setItem("caminhoMusica", "Musics/Eletrônica/PSY - Gangnam Style.mp3");
+    localStorage.setItem("caminhoCapa", "Images/capas/eletronico/PSY - Gangnam Style.jfif");
+    localStorage.setItem("titulo", "PSY - Gangnam Style");
+    localStorage.setItem("total", 31);
+    localStorage.setItem("estilo", "Eletronica");
+}
+
+function MusicGangam() {
+    localStorage.setItem("caminhoMusica", "Musics/Eletrônica/PSY - Gentleman.mp3");
+    localStorage.setItem("caminhoCapa", "Images/capas/eletronico/PSY - Gentleman.jpg");
+    localStorage.setItem("titulo", "PSY - Gentleman");
+    localStorage.setItem("total", 30);
+    localStorage.setItem("estilo", "Eletronica");
+}
 
