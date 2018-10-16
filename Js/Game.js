@@ -476,7 +476,7 @@ function MusicFriends() {
     localStorage.setItem("caminhoMusica", "Musics/Séries/F.R.I.E.N.D.S - Opening Season 1.mp3");
     localStorage.setItem("caminhoCapa", "Images/Capas/series/Friends.jpg");
     localStorage.setItem("titulo", "Friends -I'll be there for you");
-    localStorage.setItem("total", 47);
+    localStorage.setItem("total", 30);
     localStorage.setItem("estilo", "Series");
 }
 
@@ -485,7 +485,7 @@ function MusicGOT() {
     localStorage.setItem("caminhoMusica", "Musics/Séries/GOT - opening.mp3");
     localStorage.setItem("caminhoCapa", "Images/capas/series/GOT.jpg");
     localStorage.setItem("titulo", "Game Of Thrones - Opening");
-    localStorage.setItem("total", 101);
+    localStorage.setItem("total", 35);
     localStorage.setItem("estilo", "Series");
 }
 
@@ -502,7 +502,7 @@ function MusicMaluco() {
     localStorage.setItem("caminhoMusica", "Musics/Séries/Um maluco no pedaço - opening.mp3");
     localStorage.setItem("caminhoCapa", "Images/capas/series/maluco.jpg");
     localStorage.setItem("titulo", "Um maluco no pedaço - Abertura");
-    localStorage.setItem("total", 110);
+    localStorage.setItem("total", 28);
     localStorage.setItem("estilo", "Series");
 }
 
