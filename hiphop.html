@@ -1,69 +1,84 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <title>DTL</title>
-    <meta charset="utf-8">
-    <link rel="stylesheet" href="css/pop.css">
-    <script type="text/javascript" src="Js/Game.js"></script>
-    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
-    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
-  </head>
-  <body>
-    <div id= "top">
-      <a href="escolhaGenero.html"><img src="Images/botao-voltar-pagina.png" id="ImgVoltar"></a>
-      <img src="Images/logo.png" id="ImgLogo">
-      <img src="Images/botao-estilos-musicais-v2.png" id="ImgMusic">
-      <h1>MÚSICAS</h1>
-    </div>
-    <div id="mid">
-      <div class="your-class">
-        <div><a href="Cronometro.html"><img onclick="MusicGodsPlan();"src="Images/Capas/HipHop/Drake.jpg"></a><p>Drake - God's Plan</p></div>
-        <div><a href="Cronometro.html"><img onclick="MusicOneTime();" src="Images/Capas/HipHop/kind-ink.jpg"></a><p>Kid Ink - One Time</p></div>
-        <div><a href="Cronometro.html"><img onclick="MusicJump();" src="Images/Capas/HipHop/KrisKrossjpg.jpg"></a><p>Kris Kross - Jump</p></div>
-        <div><a href="Cronometro.html"><img onclick="MusicBetterNow();"src="Images/Capas/HipHop/post_malone.jpg"></a><p>Post Malone - Better Now</p></div>
+
+<head>
+  <title>DTL</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="css/pop.css">
+  <script type="text/javascript" src="Js/Game.js"></script>
+  <link rel="stylesheet" type="text/css" href="slick/slick.css" />
+  <link rel="stylesheet" type="text/css" href="slick/slick-theme.css" />
+</head>
+
+<body>
+  <div id="top">
+    <a href="escolhaGenero.html"><img src="Images/botao-voltar-pagina.png" id="ImgVoltar"></a>
+    <img src="Images/logo.png" id="ImgLogo">
+    <img src="Images/botao-estilos-musicais-v2.png" id="ImgMusic">
+    <h1>MÚSICAS</h1>
+  </div>
+  <div id="mid">
+    <div class="your-class">
+      <div><a href="Cronometro.html"><img onclick="MusicGodsPlan();" src="Images/Capas/HipHop/Drake.jpg"></a>
+        <p>Drake - God's Plan</p>
+      </div>
+      <div><a href="Cronometro.html"><img onclick="MusicOneTime();" src="Images/Capas/HipHop/kind-ink.jpg"></a>
+        <p>Kid Ink - One Time</p>
+      </div>
+      <div><a href="Cronometro.html"><img onclick="MusicJump();" src="Images/Capas/HipHop/KrisKrossjpg.jpg"></a>
+        <p>Kris Kross - Jump</p>
+      </div>
+      <div><a href="Cronometro.html"><img onclick="MusicBetterNow();" src="Images/Capas/HipHop/post_malone.jpg"></a>
+        <p>Post Malone - Better Now</p>
+      </div>
+
+      <div><a href="Cronometro.html"><img onclick="MusicDrakeHot();" src="Images/Capas/HipHop/DrakeHot.jpg"></a>
+        <p>Drake - Hotline bling</p>
       </div>
     </div>
-    <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
-    <script type="text/javascript" src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-    <script type="text/javascript" src="slick/slick.min.js"></script>    
-    <script>
-      $(document).ready(function(){
-        $('.variable-width').slick({
-  dots: true,
-  infinite: true,
-  speed: 300,
-  slidesToShow: 1,
-  centerMode: true,
-  variableWidth: true
-});
-            $('.your-class').slick({
-                dots: false,
-                arrows: false,
-                centerMode: true,
-                centerPadding: '60px',
-                slidesToShow: 3,
-                responsive: [
-                  {
-                    breakpoint: 768,
-                    settings: {
-                      arrows: false,
-                      centerMode: true,
-                      centerPadding: '40px',
-                      slidesToShow: 3
-                    }
-                  },
-                  {
-                    breakpoint: 480,
-                    settings: {
-                      arrows: false,
-                      centerMode: true,
-                      centerPadding: '40px',
-                      slidesToShow: 1
-                    }
-                  }
-                ]
-              });  
-        });
-    </script>
-  </body>
+  </div>
+  <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script type="text/javascript" src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+  <script type="text/javascript" src="slick/slick.min.js"></script>
+  <script>
+    $(document).ready(function () {
+      $('.variable-width').slick({
+        dots: true,
+        infinite: true,
+        speed: 300,
+        slidesToShow: 1,
+        centerMode: true,
+        variableWidth: true
+      });
+      $('.your-class').slick({
+        dots: false,
+        arrows: false,
+        centerMode: true,
+        centerPadding: '60px',
+        slidesToShow: 3,
+        responsive: [
+          {
+            breakpoint: 768,
+            settings: {
+              arrows: false,
+              centerMode: true,
+              centerPadding: '40px',
+              slidesToShow: 3
+            }
+          },
+          {
+            breakpoint: 480,
+            settings: {
+              arrows: false,
+              centerMode: true,
+              centerPadding: '40px',
+              slidesToShow: 1
+            }
+          }
+        ]
+      });
+    });
+  </script>
+</body>
+
 </html>

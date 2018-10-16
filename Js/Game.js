@@ -13,7 +13,7 @@ function ColetaValores() {
     titulo = localStorage.getItem("titulo");
     caminhoCapa = localStorage.getItem("caminhoCapa");
     caminhoMusica = localStorage.getItem("caminhoMusica");
-    estilo = localStorage.getItem("estilo"); 
+    estilo = localStorage.getItem("estilo");
 }
 
 function SetValores() {
@@ -195,7 +195,15 @@ function MusicGodsPlan() {
     localStorage.setItem("caminhoMusica", "Musics/HipHop/Drake - God’s Plan.mp3");
     localStorage.setItem("caminhoCapa", "Images/Capas/HipHop/Drake.jpg");
     localStorage.setItem("titulo", "Drake - God's Plan");
-    localStorage.setItem("total", 2);
+    localStorage.setItem("total", 31);
+    localStorage.setItem("estilo", "Hip-Hop");
+}
+
+function MusicDrakeHot() {
+    localStorage.setItem("caminhoMusica", "Musics/Hip Hop/Drake - Hotline Bling.mp3");
+    localStorage.setItem("caminhoCapa", "Images/Capas/HipHop/DrakeHot.jpg");
+    localStorage.setItem("titulo", "Drake - Hotline bling.mp3");
+    localStorage.setItem("total", 31);
     localStorage.setItem("estilo", "Hip-Hop");
 }
 
@@ -203,7 +211,7 @@ function MusicOneTime() {
     localStorage.setItem("caminhoMusica", "Musics/HipHop/Kid Ink - One Time.mp3");
     localStorage.setItem("caminhoCapa", "Images/Capas/HipHop/kind-ink.jpg");
     localStorage.setItem("titulo", "Kid Ink - One Time");
-    localStorage.setItem("total", 33);
+    localStorage.setItem("total", 30);
     localStorage.setItem("estilo", "Hip-Hop");
 }
 
@@ -219,7 +227,7 @@ function MusicBetterNow() {
     localStorage.setItem("caminhoMusica", "Musics/HipHop/Post Malone - Better Now.mp3");
     localStorage.setItem("caminhoCapa", "Images/Capas/HipHop/post_malone.jpg");
     localStorage.setItem("titulo", "Post Malone - Better Now");
-    localStorage.setItem("total", 28);
+    localStorage.setItem("total", 30);
     localStorage.setItem("estilo", "Hip-Hop");
 }
 /* Rock */
@@ -397,6 +405,14 @@ function MusicMario() {
 
 /* Funk */
 
+function MusicCerol() {
+    localStorage.setItem("caminhoMusica", "Musics/Funk/Bonde do Tigrao - Cerol na Mao.mp3");
+    localStorage.setItem("caminhoCapa", "Images/Capas/Funk/CerolNaMao.jpg");
+    localStorage.setItem("titulo", "Bonde do Tigrão - Cerol na Mão");
+    localStorage.setItem("total", 31);
+    localStorage.setItem("estilo", "Funk");
+}
+
 function MusicExplosao() {
     localStorage.setItem("caminhoMusica", "Musics/Funk/MC Kevinho - Olha a Explosão.mp3");
     localStorage.setItem("caminhoCapa", "Images/Capas/Funk/Explosao.jpg");
@@ -506,7 +522,7 @@ function MusicSorte() {
     localStorage.setItem("caminhoMusica", "Musics/Axé/Ivete Sangalo - Sorte Grande.mp3");
     localStorage.setItem("caminhoCapa", "Images/Capas/axe/Ivete - Sorte Grande.jpg");
     localStorage.setItem("titulo", "Ivete Sangalo - Sorte Grande");
-    localStorage.setItem("total", 54);
+    localStorage.setItem("total", 30);
     localStorage.setItem("estilo", "Axe");
 }
 
@@ -514,7 +530,7 @@ function MusicLargadinho() {
     localStorage.setItem("caminhoMusica", "Musics/Axé/Claudia Leitte - Largadinho.mp3");
     localStorage.setItem("caminhoCapa", "Images/capas/axe/Claudia Leite - Largadinho.jpg");
     localStorage.setItem("titulo", "Claudia Leite - Largadinho");
-    localStorage.setItem("total", 35);
+    localStorage.setItem("total", 31);
     localStorage.setItem("estilo", "Axe");
 }
 
@@ -522,7 +538,7 @@ function MusicMaozinha() {
     localStorage.setItem("caminhoMusica", "Musics/Axé/Tchakabum - Dança da maozinha.mp3");
     localStorage.setItem("caminhoCapa", "Images/capas/axe/Tchakabum - Maozinha.jpg");
     localStorage.setItem("titulo", "Tchakabum - Dança da Mãozinha");
-    localStorage.setItem("total", 87);
+    localStorage.setItem("total", 30);
     localStorage.setItem("estilo", "Axe");
 }
 
@@ -530,7 +546,7 @@ function MusicOnda() {
     localStorage.setItem("caminhoMusica", "Musics/Axé/Tchakabum - Onda Onda.mp3");
     localStorage.setItem("caminhoCapa", "Images/capas/axe/Tchakabum - Onda.jpg");
     localStorage.setItem("titulo", "Tchakabum - Onda Onda");
-    localStorage.setItem("total", 63);
+    localStorage.setItem("total", 31);
     localStorage.setItem("estilo", "Axe");
 }
 
@@ -580,7 +596,7 @@ function MusicBoom() {
     localStorage.setItem("caminhoMusica", "Musics/Eletrônica/Tiësto, Sevenn - BOOM.mp3");
     localStorage.setItem("caminhoCapa", "Images/capas/eletronico/Tiesto Sevenn - Boom.jpg");
     localStorage.setItem("titulo", "Tiesto Sevenn - Boom");
-    localStorage.setItem("total", 31);
+    localStorage.setItem("total", 30);
     localStorage.setItem("estilo", "Eletronica");
 }
 
