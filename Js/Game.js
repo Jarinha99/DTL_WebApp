@@ -298,7 +298,15 @@ function MusicArCondicionado() {
     localStorage.setItem("caminhoMusica", "Musics/Sertanejo/Wesley Safadão - Ar condicionado no 15.mp3");
     localStorage.setItem("caminhoCapa", "Images/Capas/Sertanejo/Ar_Condicionado.jpg");
     localStorage.setItem("titulo", "Wesley Safadao - Ar Condicionado no 15");
-    localStorage.setItem("total", 47);
+    localStorage.setItem("total", 35);
+    localStorage.setItem("estilo", "Sertanejo");
+}
+
+function MusicTePego() {
+    localStorage.setItem("caminhoMusica", "Musics/Sertanejo/Michel Telo - Ai se eu te pego.mp3");
+    localStorage.setItem("caminhoCapa", "Images/Capas/Sertanejo/AiSeEuTePego.jpg");
+    localStorage.setItem("titulo", "Michel Teló - Ai se eu te pego");
+    localStorage.setItem("total", 29);
     localStorage.setItem("estilo", "Sertanejo");
 }
 
@@ -306,15 +314,23 @@ function MusicDonaMaria() {
     localStorage.setItem("caminhoMusica", "Musics/Sertanejo/Thiago Brava Ft. Jorge - Dona Maria.mp3");
     localStorage.setItem("caminhoCapa", "Images/Capas/Sertanejo/DonaMaria.jpg");
     localStorage.setItem("titulo", "Thiago Brava - Dona Maria");
-    localStorage.setItem("total", 44);
+    localStorage.setItem("total", 29);
     localStorage.setItem("estilo", "Sertanejo");
 }
 
 function MusicRomance() {
-    localStorage.setItem("caminhoMusica", "Musics/Sertanejo/Wesley Safadão e Anitta - Romance Com Safadeza.mp3");
+    localStorage.setItem("caminhoMusica", "Musics/Sertanejo/Wesley Safadao e Anitta - Romance Com Safadeza.mp3");
     localStorage.setItem("caminhoCapa", "Images/Capas/Sertanejo/RomanceComSafadeza.jpg");
     localStorage.setItem("titulo", "Wesley Safadao - Romance com Safadeza");
-    localStorage.setItem("total", 43);
+    localStorage.setItem("total", 30);
+    localStorage.setItem("estilo", "Sertanejo");
+}
+
+function MusicSolaBota() {
+    localStorage.setItem("caminhoMusica", "Musics/Sertanejo/Rio Negro e Solimões - Na Sola da Bota.mp3");
+    localStorage.setItem("caminhoCapa", "Images/Capas/Sertanejo/solaBota.jpg");
+    localStorage.setItem("titulo", "Rio Negro e Solimões - Na Sola da Bota");
+    localStorage.setItem("total", 30);
     localStorage.setItem("estilo", "Sertanejo");
 }
 
@@ -322,7 +338,7 @@ function MusicTaTumTum() {
     localStorage.setItem("caminhoMusica", "Musics/Sertanejo/Kevinho e Simone  Simaria - Ta Tum Tum (KondZilla).mp3");
     localStorage.setItem("caminhoCapa", "Images/Capas/Sertanejo/Ta-Tum-Tum.jpg");
     localStorage.setItem("titulo", "Simone e Simaria - Ta Tum Tum");
-    localStorage.setItem("total", 36);
+    localStorage.setItem("total", 29);
     localStorage.setItem("estilo", "Sertanejo");
 }
 
