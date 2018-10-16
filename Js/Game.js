@@ -375,7 +375,7 @@ function MusicDota() {
     localStorage.setItem("caminhoMusica", "Musics/Jogos/Dota - Basshunter.mp3");
     localStorage.setItem("caminhoCapa", "Images/Capas/Jogos/Dota.jpg");
     localStorage.setItem("titulo", "Basshunter - Dota");
-    localStorage.setItem("total", 33);
+    localStorage.setItem("total", 30);
     localStorage.setItem("estilo", "Jogos");
 }
 
@@ -383,7 +383,7 @@ function MusicLIS() {
     localStorage.setItem("caminhoMusica", "Musics/Jogos/Life is strange OST - To All of You.mp3");
     localStorage.setItem("caminhoCapa", "Images/Capas/Jogos/LIS.jpg");
     localStorage.setItem("titulo", "Life is strange - To All of You");
-    localStorage.setItem("total", 33);
+    localStorage.setItem("total", 31);
     localStorage.setItem("estilo", "Jogos");
 }
 
@@ -391,7 +391,7 @@ function MusicSkyrim() {
     localStorage.setItem("caminhoMusica", "Musics/Jogos/Skyrim - The Song of the Dragonborn.mp3");
     localStorage.setItem("caminhoCapa", "Images/Capas/Jogos/Skyrim.jpg");
     localStorage.setItem("titulo", "Skyrim - The Song of the Dragonborn");
-    localStorage.setItem("total", 66);
+    localStorage.setItem("total", 30);
     localStorage.setItem("estilo", "Jogos");
 }
 
@@ -399,7 +399,7 @@ function MusicMario() {
     localStorage.setItem("caminhoMusica", "Musics/Jogos/Super Mario Bros. Theme Song.mp3");
     localStorage.setItem("caminhoCapa", "Images/Capas/Jogos/Mario.jpg");
     localStorage.setItem("titulo", "Super Mario Bros. Theme Song");
-    localStorage.setItem("total", 42);
+    localStorage.setItem("total", 30);
     localStorage.setItem("estilo", "Jogos");
 }
 
