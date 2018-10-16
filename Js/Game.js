@@ -236,18 +236,35 @@ function MusicBackinBlack() {
     localStorage.setItem("caminhoMusica", "Musics/Rock/ACDC - Back In Black.mp3");
     localStorage.setItem("caminhoCapa", "Images/Capas/Rock/ACDC-Back-in-Black.jpg");
     localStorage.setItem("titulo", "ACDC - Back in Black");
-    localStorage.setItem("total", 62);
+    localStorage.setItem("total", 30);
     localStorage.setItem("estilo", "Rock");
 }
 
+function MusicZero() {
+    localStorage.setItem("caminhoMusica", "Musics/Rock/Imagine Dragons - Zero.mp3");
+    localStorage.setItem("caminhoCapa", "Images/Capas/Rock/zero.jpg");
+    localStorage.setItem("titulo", "Imagine Dragons - Zero");
+    localStorage.setItem("total", 29);
+    localStorage.setItem("estilo", "Rock");
+}
+
+function MusicSecondsToMars() {
+    localStorage.setItem("caminhoMusica", "Musics/Rock/Thirty Seconds To Mars - Up In The Air.mp3");
+    localStorage.setItem("caminhoCapa", "Images/Capas/Rock/upInTheAir.jpg");
+    localStorage.setItem("titulo", "Thirty Seconds To Mars - Up In The Air");
+    localStorage.setItem("total", 37);
+    localStorage.setItem("estilo", "Rock");
+}
+
+//TODO: Que merda é essa?
 localStorage.setItem("fb_note", "5");
 localStorage.setItem("fb_genero", "Rock");
 
 function MusicCocaCola() {
-    localStorage.setItem("caminhoMusica", "Musics/Rock/Legião Urbana - Geração Coca-Cola.mp3");
+    localStorage.setItem("caminhoMusica", "Musics/Rock/Legiao Urbana - Geraçao Coca-Cola.mp3");
     localStorage.setItem("caminhoCapa", "Images/Capas/Rock/GeracaoCocaCola.jpg");
     localStorage.setItem("titulo", "Legião Urbana - Geração Coca Cola");
-    localStorage.setItem("total", 39);
+    localStorage.setItem("total", 31);
     localStorage.setItem("estilo", "Rock");
 }
 
@@ -255,7 +272,7 @@ function MusicGuns() {
     localStorage.setItem("caminhoMusica", "Musics/Rock/Guns N Roses - Sweet Child O Mine.mp3");
     localStorage.setItem("caminhoCapa", "Images/Capas/Rock/Guns.jpg");
     localStorage.setItem("titulo", "Guns - Sweet Child O Mine");
-    localStorage.setItem("total", 29);
+    localStorage.setItem("total", 28);
     localStorage.setItem("estilo", "Rock");
 }
 
@@ -263,7 +280,15 @@ function MusicQueen() {
     localStorage.setItem("caminhoMusica", "Musics/Rock/Queen - We Will Rock You.mp3");
     localStorage.setItem("caminhoCapa", "Images/Capas/Rock/Queen.jpg");
     localStorage.setItem("titulo", "Queen - We Will Rock You");
-    localStorage.setItem("total", 60);
+    localStorage.setItem("total", 30);
+    localStorage.setItem("estilo", "Rock");
+}
+
+function MusicIWant() {
+    localStorage.setItem("caminhoMusica", "Musics/Rock/Queen - I Want To Break Free.mp3");
+    localStorage.setItem("caminhoCapa", "Images/Capas/Rock/IWant.jpg");
+    localStorage.setItem("titulo", "Queen - I Want to Break Free");
+    localStorage.setItem("total", 30);
     localStorage.setItem("estilo", "Rock");
 }
 
@@ -492,13 +517,7 @@ function MusicMacarena() {
     localStorage.setItem("estilo", "Brega");
 }
 
-function MusicIWant() {
-    localStorage.setItem("caminhoMusica", "Musics/Clássicos para dançar/Queen - I Want To Break Free.mp3");
-    localStorage.setItem("caminhoCapa", "Images/capas/classicos/Queen - I want.jpg");
-    localStorage.setItem("titulo", "Queen - I Want Break Free");
-    localStorage.setItem("total", 86);
-    localStorage.setItem("estilo", "Brega");
-}
+
 
 function MusicVidaLoca() {
     localStorage.setItem("caminhoMusica", "Musics/Clássicos para dançar/Ricky Martin - Livin La Vida Loca.mp3");
