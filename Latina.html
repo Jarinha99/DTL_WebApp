@@ -21,6 +21,10 @@
         <div><a href="Cronometro.html"><img onclick="MusicDespacito();" src="Images/Capas/Latina/Despacito.jpg"></a><p>Luis Fonsi - Despacito</p></div>
         <div><a href="Cronometro.html"><img onclick="MusicKuduro();" src="Images/Capas/Latina/Kuduro.jpg"></a><p>Don Omar - Danza Kuduro</p></div>
         <div><a href="Cronometro.html"><img onclick="MusicMeRehuso();"src="Images/Capas/Latina/MeRehuso.jpg"></a><p>Danny Ocean - Me Rehuso</p></div>
+        <div><a href="Cronometro.html"><img onclick="MusicGasolina();"src="Images/Capas/Latina/Gasolina.jpg"></a><p>Daddy Yankee - Gasolina</p></div>
+        <div><a href="Cronometro.html"><img onclick="MusicMiGente();"src="Images/Capas/Latina/MiGente.jpg"></a><p>J Balvin - Mi Gente</p></div>
+        <div><a href="Cronometro.html"><img onclick="MusicRagatanga();"src="Images/Capas/Latina/Ragatanga.jpg"></a><p>Rouge - Ragatanga</p></div>
+        <div><a href="Cronometro.html"><img onclick="MusicMacarena();" src="Images/Capas/classicos/los del rio - macarena.jpg"></a><p>Los Del Rio - Macarena</p></div>
       </div>
     </div>
     <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
@@ -28,42 +32,40 @@
     <script type="text/javascript" src="slick/slick.min.js"></script>    
     <script>
       $(document).ready(function(){
-        $('.variable-width').slick({
-  dots: true,
-  infinite: true,
-  speed: 300,
-  slidesToShow: 1,
-  centerMode: true,
-  variableWidth: true
-});
-            $('.your-class').slick({
-                dots: false,
-                arrows: false,
-                centerMode: true,
-                centerPadding: '60px',
+        $('.your-class').slick({
+          dots: false,
+          infinite: true,
+          arrows: false,
+          speed: 300,
+          slidesToShow: 4,
+          slidesToScroll: 4,
+          responsive: [
+            {
+              breakpoint: 1024,
+              settings: {
                 slidesToShow: 3,
-                responsive: [
-                  {
-                    breakpoint: 768,
-                    settings: {
-                      arrows: false,
-                      centerMode: true,
-                      centerPadding: '40px',
-                      slidesToShow: 3
-                    }
-                  },
-                  {
-                    breakpoint: 480,
-                    settings: {
-                      arrows: false,
-                      centerMode: true,
-                      centerPadding: '40px',
-                      slidesToShow: 1
-                    }
-                  }
-                ]
-              });  
+                slidesToScroll: 3,
+                infinite: true,
+                dots: true
+              }
+            },
+            {
+              breakpoint: 600,
+              settings: {
+                slidesToShow: 2,
+                slidesToScroll: 2
+              }
+            },
+            {
+              breakpoint: 480,
+              settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1
+              }
+            }
+          ]
         });
+      });
     </script>
   </body>
 </html>
