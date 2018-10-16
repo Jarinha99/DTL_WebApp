@@ -341,7 +341,7 @@ function MusicSweaterWeather() {
     localStorage.setItem("caminhoMusica", "Musics/Indie/The Neighbourhood - Sweater Weather.mp3");
     localStorage.setItem("caminhoCapa", "Images/Capas/Indie/Neighbourhood.jpg");
     localStorage.setItem("titulo", "The Neighbourhood - Sweater Weather");
-    localStorage.setItem("total", 50);
+    localStorage.setItem("total", 31);
     localStorage.setItem("estilo", "Indie");
 }
 
@@ -349,7 +349,7 @@ function MusicRandomLights() {
     localStorage.setItem("caminhoMusica", "Musics/Indie/Ottawa - Random Lights.mp3");
     localStorage.setItem("caminhoCapa", "Images/Capas/Indie/Ottawa.jpg");
     localStorage.setItem("titulo", "Ottawa - Random Lights");
-    localStorage.setItem("total", 52);
+    localStorage.setItem("total", 31);
     localStorage.setItem("estilo", "Indie");
 }
 
@@ -357,7 +357,7 @@ function MusicWildHeart() {
     localStorage.setItem("caminhoMusica", "Musics/Indie/The Vamps - Wild Heart.mp3");
     localStorage.setItem("caminhoCapa", "Images/Capas/Indie/TheVamp.jpg");
     localStorage.setItem("titulo", "The Vamps - Wild Heart");
-    localStorage.setItem("total", 59);
+    localStorage.setItem("total", 31);
     localStorage.setItem("estilo", "Indie");
 }
 
@@ -365,7 +365,7 @@ function MusicYoung() {
     localStorage.setItem("caminhoMusica", "Musics/Indie/Cosmos & Creature - Young.mp3");
     localStorage.setItem("caminhoCapa", "Images/Capas/Indie/Young.jpg");
     localStorage.setItem("titulo", "Cosmos & Creature - Young");
-    localStorage.setItem("total", 31);
+    localStorage.setItem("total", 30);
     localStorage.setItem("estilo", "Indie");
 }
 
