@@ -153,7 +153,7 @@ function MusicThriller() {
     localStorage.setItem("caminhoMusica", "Musics/Pop/Michael Jackson - Thriller.mp3");
     localStorage.setItem("caminhoCapa", "Images/Capas/Pop/Michael Jackson - Thriller.jpg");
     localStorage.setItem("titulo", "Michael Jackson - Thriller");
-    localStorage.setItem("total", 34);
+    localStorage.setItem("total", 33);
     localStorage.setItem("estilo", "POP");
 }
 
